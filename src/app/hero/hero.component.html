@@ -1,0 +1,32 @@
+<div class="container"
+    fxLayout
+    fxLayout.xs="column"
+    fxLayoutAlign="center"
+    fxLayoutGap="10px"
+    fxLayoutGap.xs="0">
+    <div class="item item-1" fxFlex="25%"></div>
+    <div class="item item-2" fxFlex>
+        <div class="main hero">
+            <div fxFlex="100%">
+                <h1>Check out these things friendo</h1>
+                <br>
+            </div>
+            
+                <mat-card class="card" (click)="onNavigateToEastmarches()">
+                    <img mat-card-image src="assets/images/hero1.png" alt="Photo of a Shiba Inu">
+                    <mat-card-content class="cardtext">
+                        The Eastmarches
+                    </mat-card-content>
+                </mat-card>
+                
+                <mat-card class="card" (click)="onNavigateToBestiary()">
+                    <img mat-card-image src="assets/images/hero2.png" alt="Photo of a Shiba Inu">
+                    <mat-card-content class="cardtext">
+                        The Bestiary
+                    </mat-card-content>
+                </mat-card>
+            
+        </div>
+    </div>
+    <div class="item item-1" fxFlex="25%"></div>
+</div>

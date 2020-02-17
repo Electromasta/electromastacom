@@ -1,0 +1,7 @@
+<mat-toolbar color="primary" fxLayout fxLayout.xs="row" [hidden]="!showNavbar">
+    <span fxFlex></span>
+    <span class="home" routerLink="/">Worst Website</span>
+    <span fxFlex></span>
+</mat-toolbar>
+
+<router-outlet (activate)="changeOfRoutes()"></router-outlet>
